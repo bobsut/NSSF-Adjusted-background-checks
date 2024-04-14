@@ -49,8 +49,8 @@ Then run `make all`. (See the [`Makefile`](Makefile) to view the individual comm
 
 ## Questions / Feedback / Improvements
 
-File [an issue](issues), or email the repository's maintainer at jeremy.singer-vine@buzzfeed.com.
+File [an issue](issues), or email jsvine@gmail.com.
 
-## More from BuzzFeed News
+## Credits
 
-[Click here for a list of our open-sourced projects, data, and code](https://github.com/BuzzFeedNews/everything).
+This open-source repository was created by Jeremy Singer-Vine ([@jsvine](https://github.com/jsvine)) at BuzzFeed News in 2015. In 2023, [BuzzFeed News shut down](https://www.buzzfeednews.com/). In April 2024, Singer-Vine forked this repository to the [Data Liberation Project](https://www.data-liberation-project.org/)'s [GitHub organization](https://github.com/data-liberation-project).
