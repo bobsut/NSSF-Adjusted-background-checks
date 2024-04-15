@@ -1,6 +1,6 @@
 # *Notes on this fork*
 
-*This fork adds NSSF®-Adjusted numbers to the [upstream](https://github.com/BuzzFeedNews/nics-firearm-background-checks)'s monthly data from the FBI's National Instant Criminal Background Check System. The upstream author [declined](https://github.com/BuzzFeedNews/nics-firearm-background-checks/pull/9) to merge this fork because any non-FBI data are out of scope for that project. Thus, this fork is maintained separately from its upstream.*
+*This fork adds NSSF®-Adjusted numbers to the [upstream](https://github.com/data-liberation-project/nics-firearm-background-checks)'s monthly data from the FBI's National Instant Criminal Background Check System. The upstream author [declined](https://github.com/BuzzFeedNews/nics-firearm-background-checks/pull/9) to merge this fork because any non-FBI data are out of scope for that project. Thus, this fork is maintained separately from its upstream.*
 
 ## *Disclaimer*
 
