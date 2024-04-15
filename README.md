@@ -1,3 +1,23 @@
+# *Notes on this fork*
+
+*This fork adds NSSF®-Adjusted numbers to the [upstream](https://github.com/BuzzFeedNews/nics-firearm-background-checks)'s monthly data from the FBI's National Instant Criminal Background Check System. The upstream author [declined](https://github.com/BuzzFeedNews/nics-firearm-background-checks/pull/9) to merge this fork because any non-FBI data are out of scope for that project. Thus, this fork is maintained separately from its upstream.*
+
+## *Disclaimer*
+
+*This fork is in no way sponsored, endorsed, approved, or associated with [NSSF](https://www.nssf.org/). It gathers only publicly-accessible data.*
+
+## *NSSF Sources*
+
+*The bulk of these data came from [Trump’s Numbers, Preelection Update](https://www.factcheck.org/2020/10/trumps-numbers-preelection-update/) ([archived](https://web.archive.org/web/20210425195106/https://www.factcheck.org/2020/10/trumps-numbers-preelection-update/)), specifically the apparently genuine [spreadsheet](https://cdn.factcheck.org/UploadedFiles/NSSFAdjustedNICSMonthlyHistory-1.xlsx) ([archived](https://web.archive.org/web/20210425195106/https://cdn.factcheck.org/UploadedFiles/NSSFAdjustedNICSMonthlyHistory-1.xlsx) and [included](data/NSSFAdjustedNICSMonthlyHistory-1.xlsx?raw=true) in this fork) containing NSSF®-Adjusted numbers from `2000-01` through `2020-09`. That page's attribution footnote describes its source as "Proprietary data supplied on request and posted with NSSF permission. 5 Oct 2020."*
+
+*Other months' numbers have become available month-by-month, as various (apparently) first-hand recipients mentioned them in their press releases or media coverage, which were then indexed by search engines. Those mentions supplied the data from `1998-11` through `1999-12`, and from `2020-10` to current.*
+
+## *NSSF Methodology*
+
+*In a [blog post](https://www.nssf.org/articles/gun-control-group-tracking-nics-checks-badly/) ([archived](https://web.archive.org/web/20210712130908/https://www.nssf.org/articles/gun-control-group-tracking-nics-checks-badly/)), NSSF describes its methodology:*
+
+> *NSSF’s adjustments are derived by subtracting out NICS purpose code permit checks and permit rechecks used by states for concealed carry permit application checks as well as checks on active concealed carry permit databases... Twenty-four (Oct 2023) states currently have at least one qualified alternative permit... The number of NICS checks in these states does not include these legal transfers based on qualifying permits and NSSF does not adjust for these transfers.*
+
 # FBI NICS Firearm Background Check Data
 
 The data in this repository comes from the [FBI's National Instant Criminal Background Check System](https://www.fbi.gov/about-us/cjis/nics).
