@@ -2,6 +2,7 @@ black==23.1.0
 certifi==2022.6.15
 chardet==5.0.0
 cycler==0.11.0
+feedgen==1.0.0
 flake8==6.0.0
 idna==3.3
 isort==5.12.0
