@@ -23,21 +23,24 @@ def parse_date(pdf):
 def get_date():
     raw = requests.get(PDF_URL).content
     pdf = pdfplumber.open(BytesIO(raw))
-    d = parse_date(pdf)
-    return d.strftime("%Y-%m-%d")
+    return parse_date(pdf)
 
 
 def generate_feed(date):
+    date_str = date.strftime("%Y-%m-%d")
+    date_str_rss = date.isoformat() + "Z00:00"
     feed = FeedGenerator()
     feed.id(SLUG)
     feed.title("NICS Background Check PDF Updates")
     feed.description("A simple RSS feed indicating the latest NICS PDF date.")
     feed.author({"name": "The Data Liberation Project"})
     feed.link(href=f"https://github.com/{SLUG}", rel="self")
+    feed.lastBuildDate(date_str_rss)
     feed.language("en")
     entry = feed.add_entry()
-    entry.id(f"{SLUG}:{date}")
-    entry.title(f"NICS PDFs updated {date}")
+    entry.id(f"{SLUG}:{date_str}")
+    entry.title(f"NICS PDFs updated {date_str}")
+    entry.published(date_str_rss)
     entry.link(href=f"{PDF_URL}/view")
     return feed
 
@@ -45,7 +48,7 @@ def generate_feed(date):
 def main():
     date = get_date()
     feed = generate_feed(date)
-    feed.rss_file("data/feeds/latest-month-available.rss")
+    feed.rss_file("data/feeds/latest-month-available.rss", pretty=True)
 
 
 if __name__ == "__main__":
