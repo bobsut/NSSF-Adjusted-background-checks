@@ -1,0 +1,11 @@
+black
+feedgen
+flake8
+isort
+matplotlib>=3.9
+pandas>=2
+pdfplumber>=0.11
+python-dateutil
+requests
+seaborn>=0.13
+setuptools

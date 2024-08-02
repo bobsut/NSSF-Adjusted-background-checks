@@ -133,7 +133,7 @@ def parse_page(page):
     assert len(table)
 
     table.columns = COLUMNS
-    table[table.columns[2:]] = table[table.columns[2:]].applymap(parse_value)
+    table[table.columns[2:]] = table[table.columns[2:]].map(parse_value)
 
     validate_data(table)
 
