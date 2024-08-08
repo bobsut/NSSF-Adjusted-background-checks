@@ -4,6 +4,14 @@ default:
 now:
 	@date
 
+requirements.txt: requirements.in
+	pip-compile requirements.in
+
+venv: requirements.txt
+	if [ ! -d "venv" ]; then python3 -m venv venv; fi
+	venv/bin/pip install pip-tools
+	venv/bin/pip-sync requirements.txt
+
 all: pdfs/nics-checks-archive.pdf data/partial/nics-checks-archive.csv pdfs/nics-checks-last-five-years.pdf data/partial/nics-checks-last-five-years.csv data/nics-firearm-background-checks.csv charts
 
 update: pdfs/nics-checks-last-five-years.pdf data/partial/nics-checks-last-five-years.csv data/nics-firearm-background-checks.csv charts
