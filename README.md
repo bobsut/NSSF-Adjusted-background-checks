@@ -16,7 +16,7 @@
 
 *In a [blog post](https://www.nssf.org/articles/gun-control-group-tracking-nics-checks-badly/) ([archived](https://web.archive.org/web/20210712130908/https://www.nssf.org/articles/gun-control-group-tracking-nics-checks-badly/)), NSSF describes its methodology:*
 
-> *NSSF’s adjustments are derived by subtracting out NICS purpose code permit checks and permit rechecks used by states for concealed carry permit application checks as well as checks on active concealed carry permit databases... Twenty-four (Apr 2025) states currently have at least one qualified alternative permit, which under the Brady Act allows the permit-holder, who has undergone a background check to obtain the permit, to purchase a firearm from a licensed dealer without a separate additional background check for that transfer. The number of NICS checks in these states does not include these legal transfers based on qualifying permits and NSSF does not adjust for these transfers.*
+> *NSSF’s adjustments are derived by subtracting out NICS purpose code permit checks and permit rechecks used by states for concealed carry permit application checks as well as checks on active concealed carry permit databases... Twenty-eight (July 21 2025) states currently have at least one qualified alternative permit, which under the Brady Act allows the permit-holder, who has undergone a background check to obtain the permit, to purchase a firearm from a licensed dealer without a separate additional background check for that transfer. The number of NICS checks in these states does not include these legal transfers based on qualifying permits and NSSF does not adjust for these transfers.*
 
 # FBI NICS Firearm Background Check Data
 
